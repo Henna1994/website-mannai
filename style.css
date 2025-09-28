@@ -1,0 +1,349 @@
+body{
+    font-family: 'RobotoMedium_0';
+}
+
+.top{
+    width: 100%;
+    height: 120px;
+    padding-top: 20px;
+
+    
+    display: flex;
+    justify-content: space-between;
+}
+.logo-main{
+    width: 42%;
+    
+    height: 94px;
+    
+    background-image: url(images/mannai-logo.png);
+    margin-left: 3px;
+    background-size:cover;
+    background-position: bottom;
+}
+.customer{
+    width: 40%;
+    height: 100px;
+    color: black;
+    padding-left: 100px;
+    font-size: 20px;
+}
+.font-customer{
+    color:#6d7383;
+}
+.search-box{
+    width:23%;
+    height: 30px;
+    margin-top: 20px;
+    padding-left: 20px;
+    
+    
+
+}
+.search {
+    height: 30px;
+    width: 200px;
+    background-color: #e6f1fc;
+}
+.search-btn{
+    height: 30px;
+    width: 20px;
+    margin: 0;
+}
+.main{
+    width: 100%;
+    height: 60px;
+    
+    background-color: #EAEFF7;
+    
+
+    position: sticky;
+    top: 0px;
+}
+.home{
+    width: 100%;
+    height: 700px;
+    background-color: aquamarine;
+    background-image: url(images/Home_202508129F2C.jpg);
+    background-size: cover;
+    background-position: bottom;
+    
+    
+}
+.nav-bar ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.nav-bar a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    margin-left: 30px;
+}
+.nav-bar li{
+    float: left;
+}
+.nav-bar a:hover{
+    background-color: #475e70;
+}
+.content{
+    width:100% ;
+    height: 460px;
+    
+    margin-top: 80px;
+    text-align: center;
+}
+.logo{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    
+}
+.heading{
+    width: 100%;
+    height: 100px;
+    padding-top: 40px;
+    text-align: center;
+    font-family: 'RobotoThin_0';
+    
+    color: #0F4B7D;
+    
+    
+}
+.paragraph{
+    width: 70%;
+    height: 120px;
+    margin-left: 200px;
+    padding-top: 20px;
+    color: #0F4B7D;
+   font-family: 'RobotoThin_0';
+
+
+    
+    text-align: center;
+}
+.btn{
+    width: 130px;
+    height: 30px;
+    padding-top: 10px;
+    margin-top: 30px;
+    background-color: rgb(68, 53, 122);
+    margin-left: 45%;
+}
+.btn:hover{
+    background-color: #6b8ba5;
+}
+.button{
+    
+    
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+
+    
+}
+.brand{
+    margin-top: 30px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    
+
+}
+.brands {
+    height: 70px;
+    
+    border-bottom:  1px solid #b7b9bb;
+     position: relative;
+    
+}
+.brands::after{
+content: "";
+position: absolute;
+bottom: -5px;
+height: 3px;
+width: 90px;
+background:rgb(26, 24, 24);
+left: 47%;
+
+}
+.brand-name{
+    
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+#box{
+    
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.box1{
+    background-image: url(images/BYD_2024051308A5.jpg);
+    background-size: cover;
+    border: 1px solid gray;
+
+}
+.box2{
+    background-image: url(images/GMC_20240219F443.jpg);
+    background-size: cover;
+        border: 1px solid gray;
+
+}
+.box3{
+    background-image: url(images/Subaru_202405128212.jpg);
+    background-size: cover;
+        border: 1px solid gray;
+
+}
+.box4{
+    background-image: url(images/CHEVRON_20240219B9B3.jpg);
+    background-size: cover;
+        border: 1px solid gray;
+
+}
+.box5{
+    background-image: url(images/EICHER_202402197603.jpg);
+    background-size: cover;
+        border: 1px solid gray;
+
+}
+.box6{
+    background-image: url(images/Daewoo_20240219EFE0.jpg);
+    background-size: cover;
+            border: 1px solid gray;
+
+}
+.offer{
+    width: 100%;
+    height: 120px;
+    background-color:#c5c9cf;
+    text-align: center;
+    
+}
+.offer-image{
+    width: 100%;
+    height: 400px;
+    background-image: url(images/HomePage_20250907ED8F.jpg);
+    background-size: cover;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color:#273744;
+    
+
+    display: flex;
+}
+#parts{
+    width: 250px;
+    height: 250px;
+    color: white;
+    margin-top: 50px;
+    padding-left: 20px;
+
+}
+h4{
+    text-transform: uppercase;
+    position: relative;
+
+}
+h4::after{
+    width: 140px;
+    height: 1px;
+    background-color: #b7b9bb;
+    position: absolute;
+    content: " ";
+    bottom: -12px;
+    left: 0px;
+
+}
+ ul{
+    padding: 0;
+    list-style: none;
+    margin: 5px 0px 0px 0px;
+    font-size: 12px;
+    color: white;
+}
+ li{
+    line-height: 30px;
+    text-transform: uppercase;
+    
+}
+.part5{
+    width: 250px;
+    height: 370px;
+    color: white;
+    margin-left: 10px;
+    padding-left: 20px;
+    background-color: #475868;
+    
+}
+.logos{
+    width: 250px;
+    height: 50px;
+    
+    display: flex;
+    justify-content:space-between;
+    padding-top: 7px;
+    
+
+}
+.log{
+    width: 35px;
+    height: 35px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+#log1{
+    background-image: url(images/facebook\ \(1\).png);
+    background-size: cover;
+    background-color: rgb(19, 19, 94);
+}
+#log2{
+    background-image: url(images/insta\ \(1\).png);
+    background-size: cover;
+}
+#log3{
+    background-image: url(images/LinkedIn.png);
+    background-size: cover;
+}
+#log4{
+    background-image: url(images/twitter.png);
+    background-size: cover;
+    background-color: rgb(113, 185, 207);
+}
+#log5{
+    background-image: url(images/youtube.png);
+    background-size:cover;
+    background-position: bottom;
+}
+.uptodate{
+
+    width: 200px;
+    height: 150px;
+    
+    margin-left: 20px;
+    margin-top: 30px;
+    color: white;
+}
+.email{
+    background-color: #314251;
+
+}
+.copy{
+    background-color:#273744;
+    padding-top: 20px;
+    height: 50px;
+    width: 100%;
+    color: white;
+    padding-left: 30px;
+    
+}
